@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ashi"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I am an aspiring web developer with a passion for creating innovative and user-friendly websites and applications. My core expertise is in the MERN stack (MongoDB, Express.js, React, and Node.js),
+
+Am comfortable working in fast-paced environments, and I am always eager to learn new technologies and tools to improve my skillset . I am committed to staying up to date with the latest industry trends and technologies.
+
+In my free time, I like to work on personal projects, contribute to open-source projects, and learn new skills.
+
+I am looking forward to connecting with other web development professionals and exploring new opportunities to grow my career."
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ashi"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+</LinearLayout>
